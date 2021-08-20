@@ -1,0 +1,768 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: SFPRODISPLAYMEDIUM;
+  src: url("fonts/SFPRODISPLAYMEDIUM.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SFPRODISPLAYREGULAR;
+  src: url("fonts/SFPRODISPLAYREGULAR.otf") format("opentype");
+}
+
+.main-nav-section .nav-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0em 9em;
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.13) inset;
+  -webkit-box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.13) inset;
+  -moz-box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.13) inset;
+}
+
+.main-nav-section .nav-section .logo-section {
+  line-height: 29px;
+  font-weight: 300;
+  color: #333333;
+  font-size: 24px;
+}
+
+.main-nav-section .nav-section .browseAll {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.photo-section {
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.photo-section .content {
+  height: 60vh;
+  position: absolute;
+  padding-left: 9em;
+  width: 80%;
+  margin-top: 7em;
+  z-index: 1;
+}
+
+.photo-section .content .header {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.photo-section .content .link-section {
+  padding-top: 0.8em;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 22px;
+  color: #0070c9;
+  line-height: 32px;
+}
+
+.photo-section .image-section {
+  margin-left: 30em;
+  overflow: hidden;
+}
+
+.photo-section .image-section .image-container {
+  height: 60vh;
+  overflow: hidden;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.photo-section .image-section .image-container img {
+  width: 125%;
+}
+
+.featuredMagic {
+  margin-top: 75px;
+}
+
+.featuredMagic .header {
+  text-align: center;
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 40px;
+  line-height: 42px;
+  color: #333333;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.featuredMagic .flex-container {
+  padding: 0 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container {
+  background-color: #f2f2f2;
+  width: 32%;
+  padding: 30px;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .image-container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .image-container img {
+  padding: 65px 0 70px;
+  height: 100%;
+  width: 100%;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .content {
+  background-color: #f2f2f2;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .content .new {
+  text-align: center;
+  font-size: 12px;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #e85d00;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .content .item-name {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .content .item-name:hover {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.featuredMagic .flex-container .magic-trackpad-container .content .item-price {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch {
+  width: 67%;
+  background-color: #f2f2f2;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .image-container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .content {
+  background-color: #f2f2f2;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .content .new {
+  text-align: center;
+  font-size: 12px;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #e85d00;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .content .item-name {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .content .item-name:hover {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.featuredMagic .flex-container .magic-keyboardTouch .content .item-price {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magicMouse {
+  margin-top: 0.6em;
+  background-color: #f2f2f2;
+  width: 32%;
+  padding: 30px;
+}
+
+.featuredMagic .flex-container .magicMouse .image-container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.featuredMagic .flex-container .magicMouse .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.featuredMagic .flex-container .magicMouse .content {
+  background-color: #f2f2f2;
+}
+
+.featuredMagic .flex-container .magicMouse .content .new {
+  text-align: center;
+  font-size: 12px;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #e85d00;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.featuredMagic .flex-container .magicMouse .content .item-name {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magicMouse .content .item-name:hover {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.featuredMagic .flex-container .magicMouse .content .item-price {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magicKeyboard {
+  margin-top: 0.6em;
+  background-color: #f2f2f2;
+  width: 33%;
+  padding: 30px;
+}
+
+.featuredMagic .flex-container .magicKeyboard .image-container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.featuredMagic .flex-container .magicKeyboard .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.featuredMagic .flex-container .magicKeyboard .content {
+  background-color: #f2f2f2;
+}
+
+.featuredMagic .flex-container .magicKeyboard .content .new {
+  text-align: center;
+  font-size: 12px;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #e85d00;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.featuredMagic .flex-container .magicKeyboard .content .item-name {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.featuredMagic .flex-container .magicKeyboard .content .item-name:hover {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.featuredMagic .flex-container .magicKeyboard .content .item-price {
+  text-align: center;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.featuredMagic .magic-catogaries-link {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 17px;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #0070c9;
+  line-height: 26px;
+}
+
+.featuredMagic .magic-catogaries-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.apple-care-puls-section {
+  padding: 0 6em;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+.apple-care-puls-section .appleCare-for-mac {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 45px 45px 25px 45px;
+}
+
+.apple-care-puls-section .appleCare-for-mac .sub-header {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.apple-care-puls-section .appleCare-for-mac .main-header {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 40px;
+  line-height: 42px;
+  color: #333333;
+}
+
+.apple-care-puls-section .appleCare-for-mac .content {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  color: #333333;
+  padding: 0.2em 0;
+  letter-spacing: 1px;
+}
+
+.apple-care-puls-section .appleCare-for-mac .learn-more-link {
+  font-size: 17px;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #0070c9;
+  line-height: 26px;
+}
+
+.apple-care-puls-section .appleCare-for-mac .learn-more-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.apple-care-puls-section .image-container {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.apple-care-puls-section .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.shop-by-category-section {
+  margin-top: 2em;
+}
+
+.shop-by-category-section .shop-by-category {
+  text-align: center;
+}
+
+.shop-by-category-section .shop-by-category .main-header {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 35px;
+  color: #333333;
+}
+
+.shop-by-category-section .shop-by-category .sub-head {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  margin-top: 0.3em;
+  color: #333333;
+  letter-spacing: 0.04em;
+}
+
+.shop-by-category-section .catogaries-section {
+  margin-top: 2em;
+  padding: 0 6em;
+}
+
+.shop-by-category-section .catogaries-section ul {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shop-by-category-section .catogaries-section ul li {
+  width: 33%;
+}
+
+.shop-by-category-section .catogaries-section ul li .box-container {
+  padding: 0.5em 0;
+}
+
+.shop-by-category-section .catogaries-section ul li .box-container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shop-by-category-section .catogaries-section ul li .box-container .box .image-container {
+  margin: 0 35px 0 40px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.shop-by-category-section .catogaries-section ul li .box-container .box .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.shop-by-category-section .catogaries-section ul li .box-container .box .title {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 17px;
+  color: #333333;
+}
+
+.shop-by-category-section .catogaries-section ul li .box-container .box .title:hover {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.policy-section {
+  margin-top: 4em;
+  padding: 0 8em 3em;
+  background-color: #f5f5f7;
+}
+
+.policy-section .box-container ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.policy-section .box-container ul li {
+  width: 33%;
+  text-align: center;
+}
+
+.policy-section .box-container ul li .box {
+  margin: 0 55.33px;
+  padding-top: 56px;
+}
+
+.policy-section .box-container ul li .box .image-container {
+  margin: 0 auto;
+  height: 56px;
+  width: 44px;
+  overflow: hidden;
+}
+
+.policy-section .box-container ul li .box .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.policy-section .box-container ul li .box .main-title {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  line-height: 23px;
+  color: #1d1d1f;
+}
+
+.policy-section .box-container ul li .box .sub-title {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1d1d1f;
+  margin: 0.2em 0;
+  letter-spacing: 0.03em;
+}
+
+.policy-section .box-container ul li .box .learn-more-link {
+  margin-top: 0.5em;
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  color: #0070c9;
+}
+
+.policy-section .box-container ul li .box .learn-more-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.policy-section .notice-section {
+  padding-top: 4em;
+}
+
+.policy-section .notice-section .notice {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #86868b;
+  letter-spacing: 0.09em;
+}
+
+.policy-section .notice-section .notice p {
+  padding: 0.5em 0;
+}
+
+.policy-section hr {
+  margin: 1em 0;
+  background-color: #86868b;
+}
+
+.policy-section .timeLine-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.policy-section .timeLine-section .image-container {
+  margin-right: 0.6em;
+  height: 18px;
+  width: 18px;
+  overflow: hidden;
+}
+
+.policy-section .timeLine-section .image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.policy-section .timeLine-section .text {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+  font-size: 12px;
+  margin-right: 0.6em;
+}
+
+.policy-section .list-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+}
+
+.policy-section .list-flex-container .first-column {
+  width: 20%;
+}
+
+.policy-section .list-flex-container .first-column .title {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.policy-section .list-flex-container .first-column .lists {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+}
+
+.policy-section .list-flex-container .first-column .lists ul {
+  margin-top: 0.4em;
+  list-style: none;
+}
+
+.policy-section .list-flex-container .first-column .lists ul li {
+  font-size: 12px;
+  padding: 0.4em 0;
+  color: #1d1d1f;
+}
+
+.policy-section .list-flex-container .first-column .lists ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.policy-section .list-flex-container .second-column {
+  width: 20%;
+}
+
+.policy-section .list-flex-container .second-column .title {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.policy-section .list-flex-container .second-column .lists {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+}
+
+.policy-section .list-flex-container .second-column .lists ul {
+  margin-top: 0.4em;
+  list-style: none;
+}
+
+.policy-section .list-flex-container .second-column .lists ul li {
+  font-size: 12px;
+  padding: 0.4em 0;
+  color: #1d1d1f;
+}
+
+.policy-section .list-flex-container .second-column .lists ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.policy-section .list-flex-container .third-column {
+  width: 20%;
+}
+
+.policy-section .list-flex-container .third-column .title {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.policy-section .list-flex-container .third-column .second-title {
+  margin-top: 2em;
+}
+
+.policy-section .list-flex-container .third-column .lists {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+}
+
+.policy-section .list-flex-container .third-column .lists ul {
+  margin-top: 0.4em;
+  list-style: none;
+}
+
+.policy-section .list-flex-container .third-column .lists ul li {
+  font-size: 12px;
+  padding: 0.4em 0;
+  color: #1d1d1f;
+}
+
+.policy-section .list-flex-container .third-column .lists ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.policy-section .list-flex-container .fourth-column {
+  width: 20%;
+}
+
+.policy-section .list-flex-container .fourth-column .title {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.policy-section .list-flex-container .fourth-column .second-title {
+  margin-top: 2em;
+}
+
+.policy-section .list-flex-container .fourth-column .lists {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+}
+
+.policy-section .list-flex-container .fourth-column .lists ul {
+  margin-top: 0.4em;
+  list-style: none;
+}
+
+.policy-section .list-flex-container .fourth-column .lists ul li {
+  font-size: 12px;
+  padding: 0.4em 0;
+  color: #1d1d1f;
+}
+
+.policy-section .list-flex-container .fourth-column .lists ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.policy-section .list-flex-container .fifth-column {
+  width: 20%;
+}
+
+.policy-section .list-flex-container .fifth-column .title {
+  font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.policy-section .list-flex-container .fifth-column .second-title {
+  margin-top: 2em;
+}
+
+.policy-section .list-flex-container .fifth-column .lists {
+  font-family: "SFPRODISPLAYREGULAR", sans-serif;
+}
+
+.policy-section .list-flex-container .fifth-column .lists ul {
+  margin-top: 0.4em;
+  list-style: none;
+}
+
+.policy-section .list-flex-container .fifth-column .lists ul li {
+  font-size: 12px;
+  padding: 0.4em 0;
+  color: #1d1d1f;
+}
+
+.policy-section .list-flex-container .fifth-column .lists ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: SFPRODISPLAYMEDIUM;
+    src: url("fonts/SFPRODISPLAYMEDIUM.otf") format("opentype");
+}
+@font-face {
+    font-family: SFPRODISPLAYREGULAR;
+    src: url("fonts/SFPRODISPLAYREGULAR.otf") format("opentype");
+}
+.main-nav-section {
+    .nav-section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0em 9em;
+        font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.13) inset;
+        -webkit-box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.13) inset;
+        -moz-box-shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.13) inset;
+        .logo-section {
+            line-height: 29px;
+            font-weight: 300;
+            color: #333333;
+            font-size: 24px;
+        }
+        .browseAll {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+.photo-section {
+    background-color: #f2f2f2;
+    position: relative;
+    .content {
+        height: 60vh;
+        position: absolute;
+        padding-left: 9em;
+        width: 80%;
+        margin-top: 7em;
+        .header {
+            font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+            font-size: 48px;
+            line-height: 50px;
+            color: #333333;
+            font-weight: 500;
+        }
+        .link-section {
+            padding-top: 0.8em;
+            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+            font-size: 22px;
+            color: #0070c9;
+            line-height: 32px;
+        }
+        z-index: 1;
+    }
+    .image-section {
+        margin-left: 30em;
+        overflow: hidden;
+        .image-container {
+            height: 60vh;
+            overflow: hidden;
+            transform: scale(1.5);
+            img {
+                width: 125%;
+            }
+        }
+    }
+}
+.featuredMagic {
+    margin-top: 75px;
+    .header {
+        text-align: center;
+        font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+        font-size: 40px;
+        line-height: 42px;
+        color: #333333;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    .flex-container {
+        padding: 0 6em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .magic-trackpad-container {
+            background-color: #f2f2f2;
+            width: 32%;
+            padding: 30px;
+            .image-container {
+                height: auto;
+                width: 100%;
+                overflow: hidden;
+                img {
+                    padding: 65px 0 70px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .content {
+                background-color: #f2f2f2;
+                .new {
+                    text-align: center;
+                    font-size: 12px;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    color: #e85d00;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+                .item-name {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 25px;
+                    color: #333333;
+                    &:hover {
+                        color: #0070c9;
+                        cursor: pointer;
+                    }
+                }
+                .item-price {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 26px;
+                    color: #333333;
+                }
+            }
+        }
+        .magic-keyboardTouch {
+            width: 67%;
+            background-color: #f2f2f2;
+            .image-container {
+                height: auto;
+                width: 100%;
+                overflow: hidden;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .content {
+                background-color: #f2f2f2;
+                .new {
+                    text-align: center;
+                    font-size: 12px;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    color: #e85d00;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+                .item-name {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 25px;
+                    color: #333333;
+                    &:hover {
+                        color: #0070c9;
+                        cursor: pointer;
+                    }
+                }
+                .item-price {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 26px;
+                    color: #333333;
+                }
+            }
+        }
+        .magicMouse {
+            margin-top: 0.6em;
+            background-color: #f2f2f2;
+            width: 32%;
+            padding: 30px;
+            .image-container {
+                height: auto;
+                width: 100%;
+                overflow: hidden;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .content {
+                background-color: #f2f2f2;
+                .new {
+                    text-align: center;
+                    font-size: 12px;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    color: #e85d00;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+                .item-name {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 25px;
+                    color: #333333;
+                    &:hover {
+                        color: #0070c9;
+                        cursor: pointer;
+                    }
+                }
+                .item-price {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 26px;
+                    color: #333333;
+                }
+            }
+        }
+        .magicKeyboard {
+            margin-top: 0.6em;
+            background-color: #f2f2f2;
+            width: 33%;
+            padding: 30px;
+            .image-container {
+                height: auto;
+                width: 100%;
+                overflow: hidden;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .content {
+                background-color: #f2f2f2;
+                .new {
+                    text-align: center;
+                    font-size: 12px;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    color: #e85d00;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+                .item-name {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 25px;
+                    color: #333333;
+                    &:hover {
+                        color: #0070c9;
+                        cursor: pointer;
+                    }
+                }
+                .item-price {
+                    text-align: center;
+                    font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                    font-size: 17px;
+                    line-height: 26px;
+                    color: #333333;
+                }
+            }
+        }
+    }
+    .magic-catogaries-link {
+        text-align: center;
+        margin-top: 2em;
+        font-size: 17px;
+        font-family: "SFPRODISPLAYREGULAR", sans-serif;
+        color: #0070c9;
+        line-height: 26px;
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+.apple-care-puls-section {
+    padding: 0 6em;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    .appleCare-for-mac {
+        background-color: #fafafa;
+        text-align: center;
+        padding: 45px 45px 25px 45px;
+        .sub-header {
+            font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+            font-size: 17px;
+            line-height: 26px;
+            color: #333333;
+            font-weight: 600;
+        }
+        .main-header {
+            font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+            font-size: 40px;
+            line-height: 42px;
+            color: #333333;
+        }
+        .content {
+            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+            font-size: 17px;
+            line-height: 26px;
+            color: #333333;
+            padding: 0.2em 0;
+            letter-spacing: 1px;
+        }
+        .learn-more-link {
+            font-size: 17px;
+            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+            color: #0070c9;
+            line-height: 26px;
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .image-container {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.shop-by-category-section {
+    margin-top: 2em;
+    .shop-by-category {
+        text-align: center;
+        .main-header {
+            font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 35px;
+            color: #333333;
+        }
+        .sub-head {
+            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+            font-size: 17px;
+            line-height: 26px;
+            margin-top: 0.3em;
+            color: #333333;
+            letter-spacing: 0.04em;
+        }
+    }
+    .catogaries-section {
+        margin-top: 2em;
+        padding: 0 6em;
+        ul {
+            flex-wrap: wrap;
+            list-style: none;
+            display: flex;
+            li {
+                width: 33%;
+                .box-container {
+                    padding: 0.5em 0;
+                    .box {
+                        display: flex;
+                        align-items: center;
+                        .image-container {
+                            margin: 0 35px 0 40px;
+                            height: 50px;
+                            width: 50px;
+                            overflow: hidden;
+                            img {
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .title {
+                            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                            font-size: 17px;
+                            color: #333333;
+                            &:hover {
+                                color: #0070c9;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.policy-section {
+    margin-top: 4em;
+    padding: 0 8em 3em;
+    background-color: #f5f5f7;
+    .box-container {
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: 33%;
+                text-align: center;
+                .box {
+                    margin: 0 55.33px;
+                    padding-top: 56px;
+                    .image-container {
+                        margin: 0 auto;
+                        height: 56px;
+                        width: 44px;
+                        overflow: hidden;
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                    .main-title {
+                        font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+                        font-size: 19px;
+                        font-weight: 550;
+                        line-height: 23px;
+                        color: #1d1d1f;
+                    }
+                    .sub-title {
+                        font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #1d1d1f;
+                        margin: 0.2em 0;
+                        letter-spacing: 0.03em;
+                    }
+                    .learn-more-link {
+                        margin-top: 0.5em;
+                        font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                        color: #0070c9;
+                        &:hover {
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .notice-section {
+        padding-top: 4em;
+        .notice {
+            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+            font-size: 12px;
+            line-height: 16px;
+            color: #86868b;
+            letter-spacing: 0.09em;
+            p {
+                padding: 0.5em 0;
+            }
+        }
+    }
+    hr {
+        margin: 1em 0;
+        background-color: #86868b;
+    }
+    .timeLine-section {
+        display: flex;
+        .image-container {
+            margin-right: 0.6em;
+            height: 18px;
+            width: 18px;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .text {
+            font-family: "SFPRODISPLAYREGULAR", sans-serif;
+            font-size: 12px;
+            margin-right: 0.6em;
+        }
+    }
+    .list-flex-container {
+        display: flex;
+        margin-top: 2em;
+        .first-column {
+            width: 20%;
+            .title {
+                font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+                color: #1d1d1f;
+                font-weight: 600;
+            }
+            .lists {
+                font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                ul {
+                    margin-top: 0.4em;
+                    list-style: none;
+                    li {
+                        font-size: 12px;
+                        padding: 0.4em 0;
+                        color: #1d1d1f;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .second-column {
+            width: 20%;
+            .title {
+                font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+                color: #1d1d1f;
+                font-weight: 600;
+            }
+            .lists {
+                font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                ul {
+                    margin-top: 0.4em;
+                    list-style: none;
+                    li {
+                        font-size: 12px;
+                        padding: 0.4em 0;
+                        color: #1d1d1f;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .third-column {
+            width: 20%;
+            .title {
+                font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+                color: #1d1d1f;
+                font-weight: 600;
+            }
+            .second-title {
+                margin-top: 2em;
+            }
+            .lists {
+                font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                ul {
+                    margin-top: 0.4em;
+                    list-style: none;
+                    li {
+                        font-size: 12px;
+                        padding: 0.4em 0;
+                        color: #1d1d1f;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .fourth-column {
+            width: 20%;
+            .title {
+                font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+                color: #1d1d1f;
+                font-weight: 600;
+            }
+            .second-title {
+                margin-top: 2em;
+            }
+            .lists {
+                font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                ul {
+                    margin-top: 0.4em;
+                    list-style: none;
+                    li {
+                        font-size: 12px;
+                        padding: 0.4em 0;
+                        color: #1d1d1f;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .fifth-column {
+            width: 20%;
+            .title {
+                font-family: "SFPRODISPLAYMEDIUM", sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+                color: #1d1d1f;
+                font-weight: 600;
+            }
+            .second-title {
+                margin-top: 2em;
+            }
+            .lists {
+                font-family: "SFPRODISPLAYREGULAR", sans-serif;
+                ul {
+                    margin-top: 0.4em;
+                    list-style: none;
+                    li {
+                        font-size: 12px;
+                        padding: 0.4em 0;
+                        color: #1d1d1f;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
