@@ -1,0 +1,33 @@
+@mixin responsive($breakpoint) {
+    @if $breakpoint==sm-devices {
+        @media only screen and (max-width: 498px) {
+            @content;
+        }
+    }
+    @if $breakpoint==phone {
+        @media only screen and (max-width: 600px) {
+            @content;
+        }
+    }
+    @if $breakpoint==tab-port {
+        @media only screen and (max-width: 900px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==sm-lap {
+        @media only screen and (max-width: 1040px) {
+            @content;
+        }
+    }
+    @if $breakpoint==laptop {
+        @media only screen and (max-width: 1400px) {
+            @content;
+        }
+    }
+    @if $breakpoint==big-desktop {
+        @media only screen and (min-width: 1900px) {
+            @content;
+        }
+    }
+}
